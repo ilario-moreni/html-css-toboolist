@@ -5,6 +5,14 @@
     font-family:sans-serif;
 }
 
+body{
+    background-color: #F6F8F9;
+}
+
+.bgWhite{
+    background-color: white;
+}
+
 /* header */
 
 header{
@@ -25,4 +33,39 @@ h1{
     line-height: 80px;
     height: 80px;
     font-weight: 700;
+}
+
+/* main */
+
+main{
+    width: 75%;
+    margin: 50px auto 0px;
+}
+
+.topButtons{
+    padding: 20px 0px 10px 50px;
+}
+
+.blueButton{
+    border:1px solid #47ADF1;
+    background-color: #47ADF1;
+    display: inline-block;
+}
+
+.greyButton{
+    display: inline-block;
+    border: 1px solid #CAD0D4;
+    color: #CAD0D4;
+}
+
+.greyButton, .blueButton{
+    display: inline-block;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+hr{
+    color:#F6F8F9;
+    border-width: 0px;
 }
