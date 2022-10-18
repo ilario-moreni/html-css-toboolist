@@ -89,6 +89,7 @@ li{
     margin-left: 20px;
 }
 
+/* entities */
 
 .redCross:before{
     content:'\2573';
@@ -109,6 +110,8 @@ li{
     padding:3px 6px;
     margin-right: 10px;
 }
+
+/* span */
 
 span{
     font-size: 10px;
